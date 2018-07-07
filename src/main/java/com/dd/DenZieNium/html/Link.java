@@ -21,6 +21,9 @@ public class Link extends AbstractElement {
 	 * @param locator
 	 *            the element locator
 	 */
+	public Link() {
+		super();
+	}
 	public Link(By locator) {
 		super(locator);
 	}
@@ -28,5 +31,7 @@ public class Link extends AbstractElement {
 	public Link(By locator, String controlName) {
 		super(locator, controlName);
 	}
+	
+	
 
 }

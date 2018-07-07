@@ -87,7 +87,12 @@ public class Grid {
 	
 	public static void waitUntilElementPresent(By locator) {
 		WebDriverWait wait = new WebDriverWait(driver(),TIME_OUT);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+	}
+	
+	public static void waitUntilPageTitlePresent(String title) {
+		WebDriverWait wait = new WebDriverWait(driver(),TIME_OUT);
+		wait.until(ExpectedConditions.titleIs(title));
 	}
 	
 	public static void sleep(long millis) {

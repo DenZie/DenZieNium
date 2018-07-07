@@ -33,7 +33,10 @@ public abstract class AbstractElement {
     	}
         return locateElement(getLocator());
     }
-
+    public AbstractElement() {
+    	loaded=false;
+    }
+    
     public AbstractElement(By locator) {
         this.locator = locator;
     }
@@ -43,6 +46,10 @@ public abstract class AbstractElement {
       }
     public By getLocator() {
         return locator;
+    }
+    
+    public void setLocator(By locator) {
+        this.locator = locator;
     }
     public String getControlName() {
         return controlName;
