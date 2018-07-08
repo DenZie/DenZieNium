@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 import com.dd.DenZieNium.html.Button;
 import com.dd.DenZieNium.html.CheckBox;
 import com.dd.DenZieNium.html.PasswordField;
-import com.dd.DenZieNium.html.ReactSelect;
 import com.dd.DenZieNium.html.TextField;
+import com.dd.DenZieNium.html.react.ReactSelect;
 
 public class Register {
 	

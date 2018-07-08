@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.dd.DenZieNium.Grid.Grid;
 import com.dd.DenZieNium.html.Frame;
-import com.dd.DenZieNium.html.ReactSelect;
+import com.dd.DenZieNium.html.react.ReactSelect;
 
 import Register.UserVO;
 
